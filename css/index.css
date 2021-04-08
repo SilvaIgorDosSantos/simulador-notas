@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 70vh;
+    width: 100vw;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+
+.notas, .resultados {
+    height: 100%;
+    width: 50%;
+    margin: 0 50px 0 50px;
+}
