@@ -6,7 +6,7 @@
 }
 
 .container {
-    height: 70vh;
+    height: 50vh;
     width: 100vw;
     padding-top: 100px;
     display: flex;
@@ -65,4 +65,23 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.table {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table, td, th {
+    border: 1px black solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
 }
